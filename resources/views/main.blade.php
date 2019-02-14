@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 
-<html lang="ru-RU" class="gr__nalichka_su"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="vi-VN" class="gr__nalichka_su"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-param" content="_csrf-frontend">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Быстрые займы онлайн</title>
-    <meta name="description" content="Общие условия и требования к заемщику. Требования к заемщику: Возраст от 18 до 75 лет. Постоянная прописка в любом регионе РФ. Любая кредитная история.">
+    <title>Vay nhanh trực tuyến</title>
+    <meta name="description" content="Điều kiện và yêu cầu chung cho người vay. Yêu cầu đối với người vay: Tuổi từ 20 đến 60 tuổi. Thường trú tại bất kỳ khu vực nào của Việt Nam. Bất kỳ lịch sử tín dụng.">
     <noscript><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet"></noscript>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="files/sendpulse-prompt.min.css" media="all">
@@ -24,7 +24,11 @@
 
         gtag('config', 'UA-66823714-2');
     </script>
-
+    <style>
+        .cr_pzag {
+            width: 35px !important;
+        }
+    </style>
 
 </head>
 
@@ -37,7 +41,7 @@
         </div>
 
         <div class="main-title">
-            <h2>Лучшие предложения в {{ $city }}:</h2>
+            <h2>Giao dịch tốt nhất trong {{ $city }}:</h2>
         </div>
 
     </div>
@@ -54,154 +58,324 @@
                 <div class="offers-block">
                     <a class="bem_offer" target="_blank" onclick="" href="{{ $links['smsfinans'] }}">
 
-                        <div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/150159288659807d36390c21.17948875.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Мгновенное решение</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
-                                            до 30 000 руб.
+                        <div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/150159288659807d36390c21.17948875.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Giải pháp tức thì</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                                            lên tới 10 tr VND
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
-                                            от 0% в день </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            от 18 до 70 лет
+                                            từ 0% mỗi ngày </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
+                                            từ 20 đến 60 năm
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            от 65 дней </div><div id="cr_p5">Получить деньги</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['ekapusta'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/1478165863581b0567ce52a8.66422255.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #FF4242"></div><div class="parallelogram" style="background: #FF4242"><span>Лояльные условия</span></div><div class="parallelogram__right-angle" style="border-top-color: #FF4242"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
-                                            до 30 000 руб.
+                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['ekapusta'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/1478165863581b0567ce52a8.66422255.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #FF4242"></div><div class="parallelogram" style="background: #FF4242"><span>Điều kiện trung thành</span></div><div class="parallelogram__right-angle" style="border-top-color: #FF4242"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                                            lên tới 10 tr VND
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
-                                            от 0% в день </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            от 18 до 70 лет
+                                            từ 0% mỗi ngày </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
+                                            từ 20 đến 60 năm
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            от 90 дней </div><div id="cr_p5">Получить деньги</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['webbankir'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/15112168905a1356fa310833.43635150.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Лучшее одобрение</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['webbankir'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/15112168905a1356fa310833.43635150.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Phê duyệt tốt nhất</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
                                             до 15 000 руб.
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
                                             от 0,2% в день </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            от 18 до 65 лет
+                                            từ 20 đến 60 năm
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            от 65 дней </div><div id="cr_p5">Получить деньги</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['lime'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/150159337659807f2019bf08.00872616.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Одобряют каждому</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['lime'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/150159337659807f2019bf08.00872616.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Phê duyệt mọi người</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
                                             до 15 000 руб.
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
                                             0% в день </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            от 22 до 70 лет
+                                            từ 20 đến 60 năm
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            от 90 дней </div><div id="cr_p5">Получить деньги</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['vivus'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/150159300859807db0e5a976.94064636.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Деньги сразу</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['vivus'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/150159300859807db0e5a976.94064636.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Tiền ngay lập tức</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
                                             до 30 000 руб.
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
                                             от 0,6% в день </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            от 21 до 70 лет
+                                            từ 20 đến 60 năm
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            от 65 дней </div><div id="cr_p5">Получить деньги</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['moneza'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/150159294859807d74e39688.24733334.png" alt=""></div><div class="parallelogram__wrapper"></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['moneza'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/150159294859807d74e39688.24733334.png" alt=""></div><div class="parallelogram__wrapper"></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
                                             до 10 000 руб.
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
-                                            от 0% в день </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            от 21 до 65 лет
+                                            từ 0% mỗi ngày </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
+                                            từ 20 đến 60 năm
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            от 365 дней </div><div id="cr_p5">Получить деньги</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['creditplus'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/150159217259807a6cefce45.57809019.png" alt=""></div><div class="parallelogram__wrapper"></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['creditplus'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/150159217259807a6cefce45.57809019.png" alt=""></div><div class="parallelogram__wrapper"></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
                                             до 15 000 руб.
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
                                             0% в день </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            от 18 до 70 лет
+                                            từ 20 đến 60 năm
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            от 65 дней </div><div id="cr_p5">Получить деньги</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['moneyman'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/150159190859807964dcea97.87420972.png" alt=""></div><div class="parallelogram__wrapper"></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['moneyman'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/150159190859807964dcea97.87420972.png" alt=""></div><div class="parallelogram__wrapper"></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
                                             до 10 000 руб.
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
-                                            от 0% в день </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
+                                            từ 0% mỗi ngày </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
                                             от 20 до 65 лет
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            от 365 дней </div><div id="cr_p5">Получить деньги</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['payps'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/15117239995a1b13dfa0d396.39326796.png" alt=""></div><div class="parallelogram__wrapper"></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['payps'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/15117239995a1b13dfa0d396.39326796.png" alt=""></div><div class="parallelogram__wrapper"></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
                                             до 11 000 руб.
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
                                             от 0,5% в день </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            от 21 до 65 лет
+                                            từ 20 đến 60 năm
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            от 65 дней </div><div id="cr_p5">Получить деньги</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['greenmoney'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/15203458855a9ea31dd8c0a1.78056896.png" alt=""></div><div class="parallelogram__wrapper"></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['greenmoney'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/15203458855a9ea31dd8c0a1.78056896.png" alt=""></div><div class="parallelogram__wrapper"></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
                                             до 25 000 руб.
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
                                             от 1,9% в день </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            от 21 до 70 лет
+                                            từ 20 đến 60 năm
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            от 65 дней </div><div id="cr_p5">Получить деньги</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['zaymer'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/1478165031581b0227b22f33.96545287.png" alt=""></div><div class="parallelogram__wrapper"></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['zaymer'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/1478165031581b0227b22f33.96545287.png" alt=""></div><div class="parallelogram__wrapper"></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
                                             до 30 000 руб.
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
                                             от 0,7% в день </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            от 21 до 70 лет
+                                            từ 20 đến 60 năm
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            от 90 дней </div><div id="cr_p5">Получить деньги</div></div></div></div></div></a>{{--<a class="bem_offer" target="_blank" onclick="" href="{{ $links['ezaem'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/150159242059807b6458a3c5.71155395.png" alt=""></div><div class="parallelogram__wrapper"></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a>{{--<a class="bem_offer" target="_blank" onclick="" href="{{ $links['ezaem'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/150159242059807b6458a3c5.71155395.png" alt=""></div><div class="parallelogram__wrapper"></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
                                             до 15 000 руб.
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
-                                            от 0% в день </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
+                                            từ 0% mỗi ngày </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
                                             от 19 до 65 лет
-                                        </div><div id="cr_p5">Получить деньги</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['creditpomojet'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/15172071015a6ebe3da634c7.35285334.png" alt=""></div><div class="parallelogram__wrapper"></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                                        </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['creditpomojet'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/15172071015a6ebe3da634c7.35285334.png" alt=""></div><div class="parallelogram__wrapper"></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
                                             до 50 000 руб.
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
                                             от 1% в день </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            от 21 до 65 лет
-                                        </div><div id="cr_p5">Получить деньги</div></div></div></div></div></a>--}}<a class="bem_offer" target="_blank" onclick="" href="{{ $links['smart'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/1502266571598ac4cb6e68e3.63932607.png" alt=""></div><div class="parallelogram__wrapper"></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                                            từ 20 đến 60 năm
+                                        </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a>--}}<a class="bem_offer" target="_blank" onclick="" href="{{ $links['smart'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/1502266571598ac4cb6e68e3.63932607.png" alt=""></div><div class="parallelogram__wrapper"></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
                                             до 14 000 руб.
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
                                             от 0,25% в день </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            от 21 до 68 лет
+                                            từ 20 đến 60 năm
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            от 65 дней </div><div id="cr_p5">Получить деньги</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['joymoney'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/150159353059807fba2dc929.87677627.png" alt=""></div><div class="parallelogram__wrapper"></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['joymoney'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/150159353059807fba2dc929.87677627.png" alt=""></div><div class="parallelogram__wrapper"></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
                                             до 20 000 руб.
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
                                             от 1% в день </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            от 21 до 65 лет
+                                            từ 20 đến 60 năm
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            от 65 дней </div><div id="cr_p5">Получить деньги</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['oneclick'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/150159249759807bb1d26045.59245848.png" alt=""></div><div class="parallelogram__wrapper"></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['oneclick'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/150159249759807bb1d26045.59245848.png" alt=""></div><div class="parallelogram__wrapper"></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
                                             до 25 000 руб.
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
                                             от 1% в день </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
                                             от 23 до 65 лет
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            от 65 дней </div><div id="cr_p5">Получить деньги</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['webbankir'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/15293165715b2784db1ec379.56720703.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Заём для Вас!</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['webbankir'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/15293165715b2784db1ec379.56720703.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Заём для Вас!</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
                                             до 15 000 руб.
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
                                             от 0,2% в день </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            от 18 до 65 лет
+                                            từ 20 đến 60 năm
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            от 65 дней </div><div id="cr_p5">Получить деньги</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['smart'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/15293167585b27859665f737.46491408.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Проверок нет</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['smart'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/15293167585b27859665f737.46491408.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Проверок нет</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
                                             до 14 000 руб.
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
                                             от 0,25% в день </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            от 21 до 68 лет
+                                            từ 20 đến 60 năm
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            от 65 дней </div><div id="cr_p5">Получить деньги</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['ekapusta'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/15293167565b278594236143.91227505.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #FF4242"></div><div class="parallelogram" style="background: #FF4242"><span>Бесплатный займ</span></div><div class="parallelogram__right-angle" style="border-top-color: #FF4242"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['ekapusta'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/15293167565b278594236143.91227505.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #FF4242"></div><div class="parallelogram" style="background: #FF4242"><span>Бесплатный займ</span></div><div class="parallelogram__right-angle" style="border-top-color: #FF4242"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
                                             до 30 000 руб.
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
-                                            от 0% в день </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            от 18 до 70 лет
+                                            từ 0% mỗi ngày </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
+                                            từ 20 đến 60 năm
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            от 90 дней </div><div id="cr_p5">Получить деньги</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['vivus'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/15293167595b2785975e1f60.07029190.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Решение сразу</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['vivus'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/15293167595b2785975e1f60.07029190.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Решение сразу</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
                                             до 30 000 руб.
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
-                                            от 0% в день </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            от 21 до 70 лет
+                                            từ 0% mỗi ngày </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
+                                            từ 20 đến 60 năm
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            от 65 дней </div><div id="cr_p5">Получить деньги</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['smsfinans'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/15293166345b27851a2033e2.64020981.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Срочное одобрение</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['smsfinans'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/15293166345b27851a2033e2.64020981.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Срочное одобрение</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
                                             до 30 000 руб.
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
-                                            от 0% в день </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            от 18 до 70 лет
+                                            từ 0% mỗi ngày </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
+                                            từ 20 đến 60 năm
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            от 65 дней </div><div id="cr_p5">Получить деньги</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['lime'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/15301434365b3422cc720845.17853617.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Деньги за минуту</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['lime'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/15301434365b3422cc720845.17853617.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Деньги за минуту</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
                                             до 15 000 руб.
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
                                             0% в день </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            от 22 до 70 лет
+                                            từ 20 đến 60 năm
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            от 65 дней </div><div id="cr_p5">Получить деньги</div></div></div></div></div></a></div></div>
+                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a></div></div>
 
 
             <div class="clr"></div>
 
             <div class="text-center banner-wrapper"><p></p></div><div style="clear: both;"></div></div></div></div>
 
-<div id="info_t" class="trebovaniya"><div class="container"><div class="custom"><h1 style="text-align: center;">Моментальные займы онлайн!</h1><h2>Общие условия и требования к заемщику</h2><h3 class="trebovaniya__subheader">Требования к заемщику:</h3><p class="trebovaniya__paragraph">Возраст от 18 до 75 лет; Постоянная прописка в любом регионе РФ; Любая кредитная история</p><h3 class="trebovaniya__subheader">Условия получения:</h3><p class="trebovaniya__paragraph">Первый заём до 10 000 рублей выдается по ставке 0% в случае своевременного погашения; Процентная ставка по займам от 30 до 360% годовых, по потребительским кредитам и кредитным картам - от 17 до 31% годовых. В случае нарушения сроков, размер неустойки составляет 0,10% от суммы просрочки в день, но не более 10% от суммы кредита; В случае длительной задержки выплаты информация будет передана в БКИ</p><h3 class="trebovaniya__subheader"><strong>Последствия невыплаты заёмных средств:</strong></h3><p class="trebovaniya__paragraph">В случае невозвращения в условленный срок суммы кредита или суммы процентов за пользование заёмными средствами кредитор вынуждено начислит штраф за просрочку платежа. Большинство кредиторов идут на уступки и дают 3 дополнительных рабочих дня для оплаты. Они предусмотрены на случай, к примеру, если банковский перевод занял больше времени, чем обычно. Однако, в случае неполучения от Вас какой-либо реакции в течение продолжительного времени, будет начислен штраф за просрочку срока погашения размером в среднем 0,10% от первоначальной суммы для займов, 0,03% от суммы задолженности в среднем для потребительских кредитов и кредитных карт.</p><p class="trebovaniya__paragraph">При несоблюдении Вами условий по погашению кредитов и займов, данные о Вас могут быть переданы в реестр должников, а задолженность - коллекторскому агентству для взыскания долга. О всех приближающихся сроках платежа кредитор своевременно информирует Вас по СМС или электронной почте. Рекомендуем Вам вносить платеж в день получения данных напоминаний. Погашая задолженность в срок, Вы формируете хорошую кредитную историю, что повышает Ваши шансы в дальнейшем получить кредит на более выгодных условиях. Предложение не является оффертой. Конечные условия уточняйте при прямом общении с кредиторами.</p><h3 class="trebovaniya__subheader">Информация о полной стоимости займа и пример расчета</h3><p class="trebovaniya__paragraph">Займ в размере 10 000 рублей выдан на 61 дней с пролонгацией. В году 365 дней, по договору ставка составляет 1% в день (годовая ставка, соответственно будет равна 365%). Сумма процентов за год составляет 36 500 руб. (10 000*365% = 36 500), за 1 день 100 руб. (36 500/365 = 100), за 61 дней соответственно 6 100 руб. (100*61 = 6100). Общая сумма платежа составляет 16 100 руб. (10 000 руб. основной долг + 6 100 руб. проценты).</p><p class="trebovaniya__paragraph"><strong>ПСК (полная стоимость кредита) в процентах составляет 365% годовых. </strong></p></div></div><div class="clr"></div></div><div id="info_t"><div class="container"><div class="custom"><h2>Информация о кредиторах, представленных на сайте.</h2><ul><li><h3>СМСФИНАНС (ООО МФО «СМСФИНАНС»)</h3><p>Поддержка: 8 (800) 333-27-57, № лицензии 2120177002022<br> Адрес: 115201, г. Москва, ул. Котляковская, д.3, стр. 13<br> Максимальная годовая процентная ставка: 328,5%<br> Срок с продлением: от 65 дней <br>Максимальный срок займа неограничен*</p></li><li><h3>VIVUS (ЗАО «4финанс»)</h3><p>Поддержка: 8 (499) 649-39-46, № лицензии 1127746537764<br> Адрес: 115201, г.Москва, ул. Котляковская, д. 3, стр. 13<br> Максимальная годовая процентная ставка: 328,5%<br> Срок с продлением: от 65 дней <br>Максимальный срок займа неограничен*</p></li><li><h3>Срочно деньги (ООО «СрочноДеньги»)</h3><p>Поддержка: 8 (800) 100-13-63, № лицензии 2110552000304<br> Адрес: Нижний Новгород, ул. Тимирязева, 15/2, БЦ «КМ-Сити», 4 этаж<br> Максимальная годовая процентная ставка: 730%<br> Срок с продлением: от 90 дней <br>Максимальный срок займа неограничен*</p></li><li><h3>GreenMoney (ООО МФО «ГринМани»)</h3><p>Поддержка: 8 (800) 775-78-80, № лицензии 2120742002054<br> Адрес: 650000, г. Кемерово, улица Орджоникидзе, 5-28<br> Максимальная годовая процентная ставка: 730%<br> Срок с продлением: от 65 дней <br>Максимальный срок займа неограничен*</p></li><li><h3>LIME</h3><p>ООО «Лайм-Займ»<br> Поддержка: 8 (800) 700-01-97, № лицензии 651303045004102<br> Адрес: г. Москва, ул. Бирюлевская, д. 24, корп. 1, пом. 3<br> Максимальная годовая процентная ставка: 730%<br> Срок с продлением: от 90 дней <br>Максимальный срок займа неограничен*</p></li><li><h3>Екапуста</h3><p>ООО «Русинтерфинанс»<br> Поддержка: +7 (495) 215-55-67, № лицензии 2120754001243<br> Адрес: 630058, г. Новосибирск, ул. Русская, д. 39<br> Максимальная годовая процентная ставка: 620,5%<br> Срок с продлением: от 90 дней <br>Максимальный срок займа неограничен*</p></li><li><h3>Кredito24.ru</h3><p>OOO «Займо»<br> Поддержка: +7 (495) 225-90-63, № лицензии 651303552003006<br> Адрес: 115114, г. Москва, ул. Летниковская, дом 10, стр. 5<br> Максимальная Максимальная годовая процентная ставка: 365%<br> Срок с продлением: от 90 дней <br>Максимальный срок займа неограничен*</p></li><li><h3>ТУРБОЗАЙМ</h3><p>ООО «Августфинанс»<br> Поддержка: 8 (800) 77-00-200, № лицензии 651303045003951<br> Адрес: 129110, г. Москва, ул. Гиляровского, д. 65, стр.1<br> Максимальная годовая процентная ставка: 803%<br> Срок с продлением: от 65 дней <br>Максимальный срок займа неограничен*</p></li><li><h3>Вкармане</h3><p>ООО Микрофинансовая организация «Джой Мани»<br> Поддержка: +7 (495) 009-35-65, № лицензии 1145476064711<br> Адрес: г. Новосибирск, ул. Дмитрия Шамшурина д. 1, оф. 1<br> Максимальная годовая процентная ставка: 365%<br> Срок с продлением: от 90 дней <br>Максимальный срок займа неограничен*</p></li><li><h3>МИГ КРЕДИТ</h3><p>ООО «МигКредит»<br> Поддержка: 8 (800) 100-34-91, № лицензии 2110177000037<br> Адрес: 127018, г. Москва, Сущевский Вал, д. 5, стр. 3<br> Максимальная годовая процентная ставка: 211,7%<br> Срок с продлением: от 365 дней <br>Максимальный срок займа неограничен*</p></li><li><h3>EZAEM.RU</h3><p>ООО «Е заем»<br> Поддержка: 8 (800) 775-77-75, № лицензии 651303045003161<br> Адрес: 123100, г. Москва, Пресненская набережная, дом 12, пом. 4.<br> Максимальная годовая процентная ставка: 700,8%<br> Срок с продлением: от 65 дней <br>Максимальный срок займа неограничен*</p></li><li><h3>Деньга</h3><p>ООО «УК Деньга»<br> Поддержка: 8 (800) 700-08-08, № лицензии 1137847367382<br> Адрес: 199178, Санкт-Петербург, 15-я линия В. О., д. 12, литер. А, комн. 24<br> Максимальная годовая процентная ставка: 547,5%<br> Срок с продлением: от 365 дней <br>Максимальный срок займа неограничен*</p></li><li><h3>Домашние Деньги</h3><p>ООО «Домашние деньги»<br> Поддержка: 8 (800) 555-72-42, № лицензии 211017700000<br>Адрес: 115088, г. Москва, 2-ой Южнопортовый проезд, д. 33, стр. 1<br> Максимальная годовая процентная ставка: 248,2%<br> Срок с продлением: от 365 дней <br>Максимальный срок займа неограничен*</p></li><li><h3>ЗАЙМЕР</h3><p>ООО «Займер»<br> Поддержка: 8 (800) 707-02-47, № лицензии 651303532004088<br> Адрес:г. Кемерово, пр. Советский, д. 2/7<br> Максимальная годовая процентная ставка: 248,2%<br> Срок с продлением: от 65 дней <br>Максимальный срок займа неограничен*</p></li><li><h3>Честное слово</h3><p>ООО «ЧЕСТНОЕ СЛОВО»<br> Поддержка: 8 (499) 670-07-60, № лицензии 1137746046943<br> Адрес: 127018, г. Москва, ул. Полковая, д. 3, стр. 4<br> Максимальная годовая процентная ставка: 730%<br> Срок с продлением: от 65 дней <br>Максимальный срок займа неограничен*</p></li><li><h3>Быстроденьги</h3><p>ООО «Магазин Малого Кредитования»<br> Поддержка: 8 (800) 700-43-44, № лицензии 2110573000002<br> Адрес: 107996, г. Москва, ул. Гиляровского, д. 65, стр. 1<br> Максимальная годовая процентная ставка: 730%<br> Срок с продлением: от 365 дней <br>Максимальный срок займа неограничен*</p></li><li><h3>Pay p.s.</h3><p>ООО «Займ Онлайн»<br> Поддержка: 8 (800) 555-24-35, № лицензии 1127746428171<br> Адрес: 123001, г. Москва, ул. Спиридоновка, 27/24<br> Максимальная годовая процентная ставка: 730%<br> Срок с продлением: от 65 дней <br>Максимальный срок займа неограничен*</p></li><li><h3>Moneyman</h3><p>ООО «Мани Мен»<br> Поддержка: +7 (499) 681-83-83, № лицензии 1117746442670<br> Адрес: 121087, г. Москва, ул. Барклая, д. 6, стр. 9, офис 1<br> Максимальная годовая процентная ставка: 273,75%<br> Срок с продлением: от 365 дней <br>Максимальный срок займа неограничен*</p></li><li><h3>Moneza</h3><p>ООО МКК «Монеза»<br> Поддержка: +7 (495) 255-55-00, № лицензии 1603045007877<br> Адрес: 123100, г. Москва, Пресненская набережная, дом 12, помещение 4.<br> Максимальная годовая процентная ставка: 188,299%<br> Срок с продлением: от 365 дней <br>Максимальный срок займа неограничен*</p></li></ul><div class="clr">&nbsp;</div></div><br><p>* Заём возможно продлить неограниченное количество раз в случае своевременной уплаты процентов.</p></div></div><div class="clr"></div>
+<div id="info_t" class="trebovaniya"><div class="container"><div class="custom"><h1 style="text-align: center;">Cho vay trực tuyến ngay lập tức!</h1><h2>Điều kiện và yêu cầu chung đối với người vay</h2><h3 class="trebovaniya__subheader">Yêu cầu đối với người vay:</h3><p class="trebovaniya__paragraph">Tuổi từ 20 đến 60 tuổi; Đăng ký thường trú tại bất kỳ khu vực nào của Việt Nam; Bất kỳ lịch sử tín dụng</p><h3 class="trebovaniya__subheader">Điều kiện để có được:</h3><p class="trebovaniya__paragraph">Khoản vay đầu tiên lên tới 1.000.000 đồng được phát hành với tỷ lệ 40% trong trường hợp trả nợ đúng hạn; Lãi suất cho các khoản vay từ 30 đến 360% mỗi năm cho các khoản vay tiêu dùng và thẻ tín dụng. Trong trường hợp vi phạm các điều khoản, số tiền phạt là 0,10% số tiền chậm trễ mỗi ngày, nhưng không quá 10% số tiền cho vay; Trong trường hợp chậm thanh toán, thông tin sẽ được truyền đến CII.</p><h3 class="trebovaniya__subheader"><strong>Hậu quả của việc không thanh toán tiền vay:</strong></h3><p class="trebovaniya__paragraph">Trong trường hợp số tiền cho vay hoặc số tiền lãi cho việc sử dụng vốn vay không được trả lại trong thời gian đã thỏa thuận, người cho vay buộc phải tính tiền phạt cho khoản thanh toán trễ. Hầu hết những người cho vay đều nhượng bộ và cho thêm 3 ngày làm việc để trả tiền. Họ được cung cấp cho trường hợp, ví dụ, nếu chuyển khoản ngân hàng mất nhiều thời gian hơn bình thường. Tuy nhiên, nếu bạn không nhận được bất kỳ phản ứng nào trong một thời gian dài, bạn sẽ bị phạt vì trả nợ trễ với kích thước trung bình là 0,10% số tiền ban đầu cho các khoản vay, 0,03% số tiền trung bình nợ cho vay tiêu dùng và tín dụng. thẻ.</p><p class="trebovaniya__paragraph">Nếu bạn không tuân thủ các điều kiện để trả nợ và vay, dữ liệu về bạn có thể được chuyển sang sổ đăng ký của con nợ và khoản nợ - cho cơ quan thu nợ để đòi nợ. Người cho vay thông báo cho bạn qua SMS hoặc e-mail về tất cả các thời hạn thanh toán sắp tới. Chúng tôi khuyên bạn nên thanh toán vào ngày bạn nhận được những lời nhắc này. Bằng cách trả nợ đúng hạn, bạn hình thành một lịch sử tín dụng tốt, điều này làm tăng cơ hội của bạn để có được một khoản vay trong tương lai với các điều khoản có lợi hơn. Đề nghị không phải là một đề nghị. Chỉ định các điều kiện cuối cùng để liên lạc trực tiếp với các chủ nợ.</p><h3 class="trebovaniya__subheader">Thông tin về toàn bộ chi phí của khoản vay và một ví dụ về tính toán</h3><p class="trebovaniya__paragraph">Khoản vay với số tiền 1 000 000 đồng được phát hành trong 61 ngày với thời gian kéo dài. Trong một năm 365 ngày, theo hợp đồng, tỷ lệ là 1% mỗi ngày (tỷ lệ hàng năm sẽ tương ứng với 365%). Số tiền lãi mỗi năm là 3 650 000 đồng. (1.000.000 * 365% = 3.600.000), trong 1 ngày 10.000 đồng. (3650000/365 = 10.000), trong 61 ngày, tương ứng 610000 đồng. (10.000 * 61 = 610000). Tổng số tiền thanh toán là 1610000 đồng. (1.000.000 đồng nợ cơ bản + 6.100.000 đồng lãi).</p><p class="trebovaniya__paragraph"><strong>CPC (chi phí cho vay đầy đủ) theo tỷ lệ phần trăm là 365% mỗi năm</strong></p></div></div><div class="clr"></div></div><div id="info_t"><div class="container"><div class="custom"><h2>Thông tin về người cho vay đại diện trên trang web.</h2><ul>
+                <li>
+                    <h3>Công ty TNHH MTV Tư vấn Tài Chính LGC</h3>
+                    <p>Hỗ trợ: 1900 63 60 72
+                        <br> Tòa nhà 27B Nguyễn Đình Chiểu, Phường Đa Kao, Quận 1,
+                        <br> Thành phố Hồ Chí Minh Giấy CN ĐKDN số 1201503076
+                        <br> do Sở Kế hoạch và Đầu tư TP.HCM cấp lần đầu ngày 17/08/2015
+                        <br> Lãi suất tối đa hàng năm: 365,5%
+                        <br> Thời hạn với đổi mới: từ 65 ngày
+                        <br>Thời hạn cho vay tối đa không giới hạn*</p>
+                </li>
+                <li>
+                    <h3>VIVUS (ЗАО «4финанс»)</h3>
+                    <p>Поддержка: 8 (499) 649-39-46, № лицензии 1127746537764
+                        <br> Адрес: 115201, г.Москва, ул. Котляковская, д. 3, стр. 13
+                        <br> Максимальная годовая процентная ставка: 328,5%
+                        <br> Срок с продлением: từ 65 ngày
+                        <br>Максимальный срок займа неограничен*</p>
+                </li>
+                <li>
+                    <h3>Срочно деньги (ООО «СрочноДеньги»)</h3>
+                    <p>Поддержка: 8 (800) 100-13-63, № лицензии 2110552000304
+                        <br> Адрес: Нижний Новгород, ул. Тимирязева, 15/2, БЦ «КМ-Сити», 4 этаж
+                        <br> Максимальная годовая процентная ставка: 730%
+                        <br> Срок с продлением: từ 65 ngày
+                        <br>Максимальный срок займа неограничен*</p>
+                </li>
+                <li>
+                    <h3>GreenMoney (ООО МФО «ГринМани»)</h3>
+                    <p>Поддержка: 8 (800) 775-78-80, № лицензии 2120742002054
+                        <br> Адрес: 650000, г. Кемерово, улица Орджоникидзе, 5-28
+                        <br> Максимальная годовая процентная ставка: 730%
+                        <br> Срок с продлением: từ 65 ngày
+                        <br>Максимальный срок займа неограничен*</p>
+                </li>
+                <li>
+                    <h3>LIME</h3>
+                    <p>ООО «Лайм-Займ»
+                        <br> Поддержка: 8 (800) 700-01-97, № лицензии 651303045004102
+                        <br> Адрес: г. Москва, ул. Бирюлевская, д. 24, корп. 1, пом. 3
+                        <br> Максимальная годовая процентная ставка: 730%
+                        <br> Срок с продлением: từ 65 ngày
+                        <br>Максимальный срок займа неограничен*</p>
+                </li>
+                <li>
+                    <h3>Екапуста</h3>
+                    <p>ООО «Русинтерфинанс»
+                        <br> Поддержка: +7 (495) 215-55-67, № лицензии 2120754001243
+                        <br> Адрес: 630058, г. Новосибирск, ул. Русская, д. 39
+                        <br> Максимальная годовая процентная ставка: 620,5%
+                        <br> Срок с продлением: từ 65 ngày
+                        <br>Максимальный срок займа неограничен*</p>
+                </li>
+                <li>
+                    <h3>Кredito24.ru</h3>
+                    <p>OOO «Займо»
+                        <br> Поддержка: +7 (495) 225-90-63, № лицензии 651303552003006
+                        <br> Адрес: 115114, г. Москва, ул. Летниковская, дом 10, стр. 5
+                        <br> Максимальная Максимальная годовая процентная ставка: 365%
+                        <br> Срок с продлением: từ 65 ngày
+                        <br>Максимальный срок займа неограничен*</p>
+                </li>
+                <li>
+                    <h3>ТУРБОЗАЙМ</h3>
+                    <p>ООО «Августфинанс»
+                        <br> Поддержка: 8 (800) 77-00-200, № лицензии 651303045003951
+                        <br> Адрес: 129110, г. Москва, ул. Гиляровского, д. 65, стр.1
+                        <br> Максимальная годовая процентная ставка: 803%
+                        <br> Срок с продлением: từ 65 ngày
+                        <br>Максимальный срок займа неограничен*</p>
+                </li>
+                <li>
+                    <h3>Вкармане</h3>
+                    <p>ООО Микрофинансовая организация «Джой Мани»
+                        <br> Поддержка: +7 (495) 009-35-65, № лицензии 1145476064711
+                        <br> Адрес: г. Новосибирск, ул. Дмитрия Шамшурина д. 1, оф. 1
+                        <br> Максимальная годовая процентная ставка: 365%
+                        <br> Срок с продлением: từ 65 ngày
+                        <br>Максимальный срок займа неограничен*</p>
+                </li>
+                <li>
+                    <h3>МИГ КРЕДИТ</h3>
+                    <p>ООО «МигКредит»
+                        <br> Поддержка: 8 (800) 100-34-91, № лицензии 2110177000037
+                        <br> Адрес: 127018, г. Москва, Сущевский Вал, д. 5, стр. 3
+                        <br> Максимальная годовая процентная ставка: 211,7%
+                        <br> Срок с продлением: từ 65 ngày
+                        <br>Максимальный срок займа неограничен*</p>
+                </li>
+                <li>
+                    <h3>EZAEM.RU</h3>
+                    <p>ООО «Е заем»
+                        <br> Поддержка: 8 (800) 775-77-75, № лицензии 651303045003161
+                        <br> Адрес: 123100, г. Москва, Пресненская набережная, дом 12, пом. 4.
+                        <br> Максимальная годовая процентная ставка: 700,8%
+                        <br> Срок с продлением: từ 65 ngày
+                        <br>Максимальный срок займа неограничен*</p>
+                </li>
+                <li>
+                    <h3>Деньга</h3>
+                    <p>ООО «УК Деньга»
+                        <br> Поддержка: 8 (800) 700-08-08, № лицензии 1137847367382
+                        <br> Адрес: 199178, Санкт-Петербург, 15-я линия В. О., д. 12, литер. А, комн. 24
+                        <br> Максимальная годовая процентная ставка: 547,5%
+                        <br> Срок с продлением: từ 65 ngày
+                        <br>Максимальный срок займа неограничен*</p>
+                </li>
+                <li>
+                    <h3>Домашние Деньги</h3>
+                    <p>ООО «Домашние деньги»
+                        <br> Поддержка: 8 (800) 555-72-42, № лицензии 211017700000
+                        <br>Адрес: 115088, г. Москва, 2-ой Южнопортовый проезд, д. 33, стр. 1
+                        <br> Максимальная годовая процентная ставка: 248,2%
+                        <br> Срок с продлением: từ 65 ngày
+                        <br>Максимальный срок займа неограничен*</p>
+                </li>
+                <li>
+                    <h3>ЗАЙМЕР</h3>
+                    <p>ООО «Займер»
+                        <br> Поддержка: 8 (800) 707-02-47, № лицензии 651303532004088
+                        <br> Адрес:г. Кемерово, пр. Советский, д. 2/7
+                        <br> Максимальная годовая процентная ставка: 248,2%
+                        <br> Срок с продлением: từ 65 ngày
+                        <br>Максимальный срок займа неограничен*</p>
+                </li>
+                <li>
+                    <h3>Честное слово</h3>
+                    <p>ООО «ЧЕСТНОЕ СЛОВО»
+                        <br> Поддержка: 8 (499) 670-07-60, № лицензии 1137746046943
+                        <br> Адрес: 127018, г. Москва, ул. Полковая, д. 3, стр. 4
+                        <br> Максимальная годовая процентная ставка: 730%
+                        <br> Срок с продлением: từ 65 ngày
+                        <br>Максимальный срок займа неограничен*</p>
+                </li>
+                <li>
+                    <h3>Быстроденьги</h3>
+                    <p>ООО «Магазин Малого Кредитования»
+                        <br> Поддержка: 8 (800) 700-43-44, № лицензии 2110573000002
+                        <br> Адрес: 107996, г. Москва, ул. Гиляровского, д. 65, стр. 1
+                        <br> Максимальная годовая процентная ставка: 730%
+                        <br> Срок с продлением: từ 65 ngày
+                        <br>Максимальный срок займа неограничен*</p>
+                </li>
+                <li>
+                    <h3>Pay p.s.</h3>
+                    <p>ООО «Займ Онлайн»
+                        <br> Поддержка: 8 (800) 555-24-35, № лицензии 1127746428171
+                        <br> Адрес: 123001, г. Москва, ул. Спиридоновка, 27/24
+                        <br> Максимальная годовая процентная ставка: 730%
+                        <br> Срок с продлением: từ 65 ngày
+                        <br>Максимальный срок займа неограничен*</p>
+                </li>
+                <li>
+                    <h3>Moneyman</h3>
+                    <p>ООО «Мани Мен»
+                        <br> Поддержка: +7 (499) 681-83-83, № лицензии 1117746442670
+                        <br> Адрес: 121087, г. Москва, ул. Барклая, д. 6, стр. 9, офис 1
+                        <br> Максимальная годовая процентная ставка: 273,75%
+                        <br> Срок с продлением: từ 65 ngày
+                        <br>Максимальный срок займа неограничен*</p>
+                </li>
+                <li>
+                    <h3>Moneza</h3>
+                    <p>ООО МКК «Монеза»
+                        <br> Поддержка: +7 (495) 255-55-00, № лицензии 1603045007877
+                        <br> Адрес: 123100, г. Москва, Пресненская набережная, дом 12, помещение 4.
+                        <br> Максимальная годовая процентная ставка: 188,299%
+                        <br> Срок с продлением: từ 65 ngày
+                        <br>Максимальный срок займа неограничен*</p>
+                </li>
+            </ul><div class="clr">&nbsp;</div></div><br><p>* Khoản vay có thể được gia hạn không giới hạn số lần trong trường hợp trả lãi đúng hạn.</p></div></div><div class="clr"></div>
 
 <footer id="footer"><div class="container"><div class="footer_l row"><div class="footer_l_1 col-xs-4"></div><div class="footer_l_3 col-xs-4"></div><div class="footer_l_2 col-xs-4"></div><div class="clr"></div></div>
         <div class="copyrights"><span class="foot_copy">
-                <p>© 2015-{{ date('Y') }} <a href="https://даём-в-заём.рф/">Даём в заём</a> - сервис подбора займов.</p>
+                <p>© 2018-{{ date('Y') }} <a href="https://даём-в-заём.рф/">Даём в заём</a> - dịch vụ lựa chọn khoản vay.</p>
                 <p style="/*font-size:12px; line-height:18px; padding-right:130px;*/" class="bem_foot__info">
-                    ООО «Технология» Адрес: 123182, г. Москва, Авиационная улица, 24с1 <br>
-                    Сервис бесплатный - за предоставление информации комиссия не взымается.
-Данный ресурс НЕ является банком или представительством МФО, мы не выдаем кредиты или займы. Персональные данные
-пользователей не собираются и не хранятся. Все рекомендуемые на сайте кредитные учреждения имеют
-соответствующие лицензии. Условия неуплаты можно уточнить на сайте конкретной МФО.
+                    Địa chỉ "Công nghệ" LLC: 123182, Singapore, Phố Hàng không, 24с1 <br>
+                    Dịch vụ này miễn phí - không tính phí khi cung cấp thông tin.
+Tài nguyên này KHÔNG phải là ngân hàng hoặc văn phòng đại diện của MFI, chúng tôi không phát hành cho vay hoặc cho vay. Dữ liệu cá nhân
+người dùng không được thu thập và không được lưu trữ. Tất cả các tổ chức tín dụng được đề nghị trên trang web có
+giấy phép liên quan. Các điều khoản không thanh toán có thể được chỉ định trên trang web của một MFI cụ thể.
 </p></span>
         </div>
 

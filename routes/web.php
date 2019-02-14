@@ -15,10 +15,10 @@ include("SxGeo.php");
 Route::get('/', function () {
 
     $SxGeo = new SxGeo(database_path('sypexgeo/SxGeoCity.dat'));
-    $city = 'Вашем городе';
+    $city = 'thành phố của bạn';
 
     if (($ip = $_SERVER['REMOTE_ADDR']) && ($geo = $SxGeo->get($ip))) {
-        $city = isset($geo['city']['name_ru']) ? 'городе ' . $geo['city']['name_ru'] : $city;
+        $city = isset($geo['city']['name_en']) ? 'thị trấn ' . $geo['city']['name_en'] : $city;
     }
     
     $links = [
