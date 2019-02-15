@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     |
     */
-    'site_name' => 'daemVzaem',
+    'site_name' => 'tienNhanh',
     'sub2' => 'web',
 
     'name' => env('APP_NAME', 'Laravel'),
@@ -80,7 +80,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'vi',
 
     /*
     |--------------------------------------------------------------------------
