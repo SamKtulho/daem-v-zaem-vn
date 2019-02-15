@@ -864,7 +864,7 @@
 
 @media only screen and (min-width: 500px) {
     .main-banner {
-        background-image: url(../images/banner500.png);
+        background-image: url(../images/banner500.jpg);
         width: 500px;
         height: 75px;
         border: 1px solid #d9d9d9;
@@ -883,7 +883,7 @@
 
 @media only screen and (min-width: 750px) {
     .main-banner {
-        background-image: url(../images/banner730.png);
+        background-image: url(../images/banner730.jpg);
         width: 730px;
         height: 90px;
         border: 1px solid #d9d9d9;
