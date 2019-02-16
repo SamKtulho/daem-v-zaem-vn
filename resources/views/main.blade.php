@@ -135,7 +135,6 @@
                         <br> do Sở Kế hoạch và Đầu tư TP.HCM cấp lần đầu ngày 17/08/2015
                         <br> Lãi suất tối đa hàng năm: 365,5%
                         <br> Thời hạn với đổi mới: từ 65 ngày
-                        <br>Thời hạn cho vay tối đa không giới hạn*</p>
                 </li>
                 <li>
                     <h3>HỆ THỐNG CỬA HÀNG F88</h3>
