@@ -27,26 +27,13 @@ Route::get('/', function () {
     ];
     
     $links = [
-        'smsfinans' => 'http://umllb.com/click-FQK9KV6W-NJFQCHGS?bt=25&tl=1&sa=' . config('app.site_name') . '&sa2=' . config('app.sub2', 'sub2'),
-        'ekapusta' => 'https://go.cityclub.finance/click-CQK9KTJI-NKHQBV00?bt=25&tl=1&sa=' . config('app.site_name') . '&sa2=' . config('app.sub2', 'sub2'),
-        'webbankir' => 'https://go.cityclub.finance/click-HQK9KV7D-NJFQCHA1?bt=25&tl=1&sa=' . config('app.site_name') . '&sa2=' . config('app.sub2', 'sub2'),
-        'lime' => 'https://go.cityclub.finance/click-AQK9KSTA-NJFQB9GU?bt=25&tl=1&sa=' . config('app.site_name') . '&sa2=' . config('app.sub2', 'sub2'),
-        'vivus' => 'https://go.cityclub.finance/click-CQK9KS2H-HFDQBB10?bt=25&tl=1&sa=' . config('app.site_name') . '&sa2=' . config('app.sub2', 'sub2'),
-        'moneza' => 'https://go.cityclub.finance/click-EQK9KUL7-RMIQCCFL?bt=25&tl=1&sa=' . config('app.site_name') . '&sa2=' . config('app.sub2', 'sub2'),
-        'creditplus' => 'https://go.cityclub.finance/click-FQK9KTWS-NKHQCFVE?bt=25&tl=1&sa=' . config('app.site_name') . '&sa2=' . config('app.sub2', 'sub2'),
-        'moneyman' => 'https://go.cityclub.finance/click-FQK9KTWP-HFDQCB8G?bt=25&tl=1&sa=' . config('app.site_name') . '&sa2=' . config('app.sub2', 'sub2'),
-        'payps' => 'https://go.cityclub.finance/click-FQK9KVOR-KIGQCFXV?bt=25&tl=1&sa=' . config('app.site_name') . '&sa2=' . config('app.sub2', 'sub2'),
-        'greenmoney' => 'https://go.cityclub.finance/click-DQK9KWBX-NLJQCHRG?bt=25&tl=1&sa=' . config('app.site_name') . '&sa2=' . config('app.sub2', 'sub2'),
-        'zaymer' => 'https://go.cityclub.finance/click-HQK9KTCD-KIGQBUSV?bt=25&tl=1&sa=' . config('app.site_name') . '&sa2=' . config('app.sub2', 'sub2'),
-        'ezaem' => 'http://google.com',
-        'creditpomojet' => 'http://google.com',
-        'smart' => 'https://go.cityclub.finance/click-CQK9KVKV-KGCQCFM2?bt=25&tl=1&sa=' . config('app.site_name') . '&sa2=' . config('app.sub2', 'sub2'),
-        'joymoney' => 'https://go.cityclub.finance/click-CQK9KTJI-NKHQBV00?bt=25&tl=1&sa=' . config('app.site_name') . '&sa2=' . config('app.sub2', 'sub2'),
-        'oneclick' => 'https://go.cityclub.finance/click-EQK9KS2V-NLJQB86J?bt=25&tl=1&sa=' . config('app.site_name') . '&sa2=' . config('app.sub2', 'sub2'),
+        'doctor' => $doctorDongLinks[array_rand($doctorDongLinks)],
+        'vietmoney' => 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=https%3A%2F%2Fcamdo.vietmoney.vn%2F&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
+        'avay' => 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=https%3A%2F%2Favay.vn%2F&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
+        'comb' => 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=https%3A%2F%2Fsaleonline.com-b.vn%2F&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
+        'shb' => 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=http%3A%2F%2Fwww.vaytienmat.shbfinance.com.vn%2F%3Futm_source%3DACT%26utm_medium%3DAllifiliate%26utm_campaign%3DACT&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
+        'f88' => 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=http%3A%2F%2Fvaynongoto.f88.vn%2F&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
     ];
-    
-    
-    
     
     return view('main', ['city' => $city, 'links' => $links]);
 });
