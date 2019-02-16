@@ -183,7 +183,7 @@
 
 <footer id="footer"><div class="container"><div class="footer_l row"><div class="footer_l_1 col-xs-4"></div><div class="footer_l_3 col-xs-4"></div><div class="footer_l_2 col-xs-4"></div><div class="clr"></div></div>
         <div class="copyrights"><span class="foot_copy">
-                <p>© 2018-{{ date('Y') }} <a href="https://даём-в-заём.рф/">Даём в заём</a> - dịch vụ lựa chọn khoản vay.</p>
+                <p>© 2018-{{ date('Y') }} <a href="https://tien-hnanh.com/">Tien nhanh</a> - dịch vụ lựa chọn khoản vay.</p>
                 <p style="/*font-size:12px; line-height:18px; padding-right:130px;*/" class="bem_foot__info">
                     Địa chỉ "Công nghệ" LLC: 123182, Singapore, Phố Hàng không, 24с1 <br>
                     Dịch vụ này miễn phí - không tính phí khi cung cấp thông tin.
