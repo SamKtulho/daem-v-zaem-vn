@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="files/sendpulse-prompt.min.css" media="all">
     <link rel="stylesheet" type="text/css" href="css/app.css" media="all">
     <link rel="stylesheet" type="text/css" href="css/custom.css" media="all">
-    <script charset="UTF-8" src="//cdn.sendpulse.com/9dae6d62c816560a842268bde2cd317d/js/push/8b48b02b0e73ddee16c2ba64c99e166d_1.js" async></script>
+
     <script charset="UTF-8" src="/js/jquery.js"> </script>
     <script charset="UTF-8" src="/js/custom.js"></script>
 
@@ -197,36 +197,6 @@ giấy phép liên quan. Các điều khoản không thanh toán có thể đư�
     </div>
 </footer>
 <div class="notificate-wrapper"><div class="notice-block action-3" style="display: block;"><div class="notice-close"></div><a href="{{ $links['doctor'] . '&sa3=notificate' }}" target="_blank" onclick=""><div class="notice-image"><img src="images/dong144.png" alt=""></div><div class="notice-data"><div class="notice-title">Tín dụng trong 5 phút!</div><div class="notice-text">Lên tới 10 triệu đồng<br>giải pháp tự động</div></div></a></div></div>
-
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter49999954 = new Ya.Metrika2({
-                    id:49999954,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true,
-                    webvisor:true
-                });
-            } catch(e) { }
-        });
-
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/tag.js";
-
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks2");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/49999954" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
 
 <link href="files/awesome.css" rel="stylesheet">
 </body>
