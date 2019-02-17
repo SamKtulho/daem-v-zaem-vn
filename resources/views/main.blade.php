@@ -196,7 +196,7 @@ giấy phép liên quan. Các điều khoản không thanh toán có thể đư�
         <div class="clr"></div>
     </div>
 </footer>
-<div class="notificate-wrapper"><div class="notice-block action-3" style="display: block;"><div class="notice-close"></div><a href="{{ $links['doctor'] . '&sa3=notificate' }}" target="_blank" onclick=""><div class="notice-image"><img src="images/dong144.png" alt=""></div><div class="notice-data"><div class="notice-title">Tín dụng trong 5 phút!</div><div class="notice-text">Lên tới 10 triệu đồng<br>giải pháp tự động</div></div></a></div></div>
+<div class="notificate-wrapper"><div class="notice-block action-3" style="display: none;"><div class="notice-close"></div><a href="{{ $links['doctor'] . '&sa3=notificate' }}" target="_blank" onclick=""><div class="notice-image"><img src="images/dong144.png" alt=""></div><div class="notice-data"><div class="notice-title">Tín dụng trong 5 phút!</div><div class="notice-text">Lên tới 10 triệu đồng<br>giải pháp tự động</div></div></a></div></div>
 
 <link href="files/awesome.css" rel="stylesheet">
 </body>
