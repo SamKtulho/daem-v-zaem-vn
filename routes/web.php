@@ -62,10 +62,10 @@ Route::get('/', function () {
         'shb' => [
             'link' => 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=http%3A%2F%2Fwww.vaytienmat.shbfinance.com.vn%2F%3Futm_source%3DACT%26utm_medium%3DAllifiliate%26utm_campaign%3DACT&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
             'image' => 'shb144.png',
-            'loan_size' => 'lên tới 10 tr VND',
-            'percent' => 'từ 0.9% mỗi ngày',
+            'loan_size' => 'lên tới 100 tr',
+            'percent' => 'từ 0.05% ngày',
             'age' => 'từ 20 đến 60 năm',
-            'period' => 'từ 65 ngày',
+            'period' => 'từ 30 ngày',
         ],
         'f88' => [
             'link' => 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=http%3A%2F%2Fvaynongoto.f88.vn%2F&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
