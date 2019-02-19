@@ -6,14 +6,12 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Vay nhanh trực tuyến</title>
     <meta name="description" content="Điều kiện và yêu cầu chung cho người vay. Yêu cầu đối với người vay: Tuổi từ 20 đến 60 tuổi. Thường trú tại bất kỳ khu vực nào của Việt Nam. Bất kỳ lịch sử tín dụng.">
-    <noscript><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet"></noscript>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" type="text/css" href="css/app.css" media="all">
     <link rel="stylesheet" type="text/css" href="css/custom.css" media="all">
-
-    <script charset="UTF-8" src="/js/jquery.js"> </script>
-    <script charset="UTF-8" src="/js/custom.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66823714-4"></script>
