@@ -61,69 +61,14 @@
                 <div class="lead_text1"></div>
                 <div class="clr"></div>
                 <div class="offers-block">
-                    <a class="bem_offer" target="_blank" onclick="" href="{{ $links['vietmoney'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/vitmoney144.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #FF4242"></div><div class="parallelogram" style="background: #FF4242"><span>Điều kiện trung thành</span></div><div class="parallelogram__right-angle" style="border-top-color: #FF4242"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
-                                            lên tới 10 tr VND
+                    @foreach($offers as $id => $offer)<a class="bem_offer" target="_blank" onclick="" href="{{ $offer['link'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/{{ $offer['image'] }}" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #FF4242"></div><div class="parallelogram" style="background: #FF4242"><span>{{ $actions[$id] }}</span></div><div class="parallelogram__right-angle" style="border-top-color: #FF4242"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                                            {{ $offer['loan_size'] }}
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
-                                            từ 0.5% mỗi ngày </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            từ 20 đến 60 năm
+                                            {{ $offer['percent'] }} </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
+                                            {{ $offer['age'] }}
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            từ 60 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['f88'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/f88144.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Phê duyệt tốt nhất</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
-                                            lên tới 10 tr VND
-                                        </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
-                                            từ 0.6% mỗi ngày </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            từ 20 đến 60 năm
-                                        </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            từ 80 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['avay'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/avay144.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Phê duyệt mọi người</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
-                                            lên tới 80 tr VND
-                                        </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
-                                            từ 0.05% ngày </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            từ 20 đến 60 năm
-                                        </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            từ 90 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['doctor'] }}">                  <div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/dong144.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Giải pháp tức thì</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
-                                            lên tới 10 tr VND
-                                        </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
-                                            từ 0.9% mỗi ngày </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            từ 20 đến 60 năm
-                                        </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['comb'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/com-b144.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Tiền ngay lập tức</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
-                                            lên tới 100 tr
-                                        </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
-                                            từ 0.05% ngày </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            từ 20 đến 60 năm
-                                        </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['shb'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/shb144.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Vay cho bạn!</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
-                                            lên tới 10 tr VND
-                                        </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
-                                            từ 0.9% mỗi ngày </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            từ 20 đến 60 năm
-                                        </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['avay'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/avay144.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Phê duyệt tốt nhất</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
-                                            lên tới 80 tr VND
-                                        </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
-                                            từ 0.05% ngày </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            từ 20 đến 60 năm
-                                        </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            từ 90 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['vietmoney'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/vitmoney144.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #FF4242"></div><div class="parallelogram" style="background: #FF4242"><span>Giải pháp tức thì</span></div><div class="parallelogram__right-angle" style="border-top-color: #FF4242"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
-                                            lên tới 10 tr VND
-                                        </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
-                                            từ 0.9% mỗi ngày </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            từ 20 đến 60 năm
-                                        </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['doctor'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/dong144.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Giải pháp ngay lập tức</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
-                                            lên tới 10 tr VND
-                                        </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
-                                            từ 0.9% mỗi ngày </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            từ 20 đến 60 năm
-                                        </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a><a class="bem_offer" target="_blank" onclick="" href="{{ $links['f88'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/f88144.png" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #"></div><div class="parallelogram" style="background: #"><span>Phê duyệt khẩn cấp</span></div><div class="parallelogram__right-angle" style="border-top-color: #"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
-                                            lên tới 10 tr VND
-                                        </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
-                                            từ 0.9% mỗi ngày </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
-                                            từ 20 đến 60 năm
-                                        </div><div id="cr_p_new"><span class="cr_pzag"><img style="opacity:0.7;" height="22" src="images/clock-circular-outline_318-53898.jpg"></span>
-                                            từ 65 ngày </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a></div></div>
-
-
+                                            {{ $offer['period'] }} </div><div id="cr_p5">Nhận tiền</div></div></div></div></div></a>@endforeach
+                </div></div>
             <div class="clr"></div>
 
             <div class="text-center banner-wrapper"><p></p></div><div style="clear: both;"></div></div></div></div>
@@ -198,8 +143,6 @@ giấy phép liên quan. Các điều khoản không thanh toán có thể đư�
         <div class="clr"></div>
     </div>
 </footer>
-
-
 <link href="files/awesome.css" rel="stylesheet">
 </body>
 </html>

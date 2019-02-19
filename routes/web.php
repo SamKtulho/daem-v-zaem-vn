@@ -27,13 +27,89 @@ Route::get('/', function () {
     ];
     
     $links = [
-        'doctor' => $doctorDongLinks[array_rand($doctorDongLinks)],
-        'vietmoney' => 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=https%3A%2F%2Fcamdo.vietmoney.vn%2F&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
-        'avay' => 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=https%3A%2F%2Favay.vn%2F&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
-        'comb' => 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=https%3A%2F%2Fsaleonline.com-b.vn%2F&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
-        'shb' => 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=http%3A%2F%2Fwww.vaytienmat.shbfinance.com.vn%2F%3Futm_source%3DACT%26utm_medium%3DAllifiliate%26utm_campaign%3DACT&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
-        'f88' => 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=http%3A%2F%2Fvaynongoto.f88.vn%2F&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
+        'doctor' => [
+            'link' => $doctorDongLinks[array_rand($doctorDongLinks)],
+            'image' => 'dong144.png',
+            'loan_size' => 'lên tới 10 tr VND',
+            'percent' => 'từ 0.9% mỗi ngày',
+            'age' => 'từ 20 đến 60 năm',
+            'period' => 'từ 65 ngày',
+        ],
+        'vietmoney' => [
+            'link' => 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=https%3A%2F%2Fcamdo.vietmoney.vn%2F&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
+            'image' => 'vitmoney144.png',
+            'loan_size' => 'lên tới 10 tr VND',
+            'percent' => 'từ 0.5% mỗi ngày',
+            'age' => 'từ 20 đến 60 năm',
+            'period' => 'từ 60 ngày',
+        ],
+        'avay' => [
+            'link' => 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=https%3A%2F%2Favay.vn%2F&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
+            'image' => 'avay144.png',
+            'loan_size' => 'lên tới 80 tr VND',
+            'percent' => 'từ 0.05% ngày',
+            'age' => 'từ 20 đến 60 năm',
+            'period' => 'từ 90 ngày',
+        ],
+        'comb' => [
+            'link' => 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=https%3A%2F%2Fsaleonline.com-b.vn%2F&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
+            'image' => 'com-b144.png',
+            'loan_size' => 'lên tới 100 tr',
+            'percent' => 'từ 0.05% ngày',
+            'age' => 'từ 20 đến 60 năm',
+            'period' => 'từ 65 ngày',
+        ],
+        'shb' => [
+            'link' => 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=http%3A%2F%2Fwww.vaytienmat.shbfinance.com.vn%2F%3Futm_source%3DACT%26utm_medium%3DAllifiliate%26utm_campaign%3DACT&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
+            'image' => 'shb144.png',
+            'loan_size' => 'lên tới 10 tr VND',
+            'percent' => 'từ 0.9% mỗi ngày',
+            'age' => 'từ 20 đến 60 năm',
+            'period' => 'từ 65 ngày',
+        ],
+        'f88' => [
+            'link' => 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=http%3A%2F%2Fvaynongoto.f88.vn%2F&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
+            'image' => 'f88144.png',
+            'loan_size' => 'lên tới 10 tr VND',
+            'percent' => 'từ 0.6% mỗi ngày',
+            'age' => 'từ 20 đến 60 năm',
+            'period' => 'từ 80 ngày',
+        ],
     ];
+
+    $offers = [];
+
+    $actions = [
+        'Điều kiện trung thành',
+        'Phê duyệt tốt nhất',
+        'Phê duyệt mọi người',
+        'Giải pháp tức thì',
+        'Tiền ngay lập tức',
+        'Vay cho bạn!',
+        'Phê duyệt tốt nhất',
+        'Giải pháp tức thì',
+        'Giải pháp ngay lập tức',
+        'Phê duyệt khẩn cấp',
+    ];
+    if (!empty($geo) && $geo['city']['name_en'] === 'Ho Chi Minh City') {
+        $offers[] = $links['vietmoney'];
+        $offers[] = $links['vietmoney'];
+        $offers[] = $links['shb'];
+    } else {
+        $offers[] = $links['shb'];
+        $offers[] = $links['shb'];
+        $offers[] = $links['comb'];
+    }
+
+    $offers[] = $links['doctor'];
+    $offers[] = $links['doctor'];
+    $offers[] = $links['f88'];
+    $offers[] = $links['comb'];
+    $offers[] = $links['comb'];
+    $offers[] = $links['avay'];
+    $offers[] = $links['avay'];
+    shuffle($offers);
+    shuffle($actions);
 
 /*    $links = [
         'doctor' => 'https://camdo.vietmoney.vn/?aff_sid=jNcXRPTXrnTG9s8xVdL1xbZZey86vggCCss0pq48RZAyHLw8',
@@ -44,5 +120,5 @@ Route::get('/', function () {
         'f88' => 'https://vaynongoto.f88.vn/?utm_source=accesstrade&aff_sid=GKPFNla0M8dU8oWC3NySOsKhyOMm3rtpML6uZauEqDFZRR1J',
     ];*/
     
-    return view('main', ['city' => $city, 'links' => $links]);
+    return view('main', ['city' => $city, 'offers' => $offers, 'actions' => $actions, 'links' => $links]);
 });
