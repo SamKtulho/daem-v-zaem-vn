@@ -14,13 +14,13 @@
     <link rel="stylesheet" type="text/css" href="css/custom.css" media="all">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66823714-4"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66823714-5"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'UA-66823714-4');
+        gtag('config', 'UA-66823714-5');
     </script>
 
     <style>
