@@ -75,6 +75,22 @@ Route::get('/', function () {
             'age' => 'từ 20 đến 60 năm',
             'period' => 'từ 80 ngày',
         ],
+        'vpbank' => [
+            'link' => 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=https%3A%2F%2Fcards.vpbank.com.vn%2F&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
+            'image' => 'vpbank.png',
+            'loan_size' => 'lên tới 10 tr VND',
+            'percent' => 'từ 0.1% mỗi ngày',
+            'age' => 'từ 22 đến 60 năm',
+            'period' => 'từ 30 ngày',
+        ],
+        'citibank' => [
+            'link' => 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=http%3A%2F%2Fcitibank.vnfiba.com%2F%3Futm_source%3Daccesstrade%26aff_sid%3D%7Bclickid%7D&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
+            'image' => 'city.png',
+            'loan_size' => 'lên tới 10 tr VND',
+            'percent' => 'từ 0.1% mỗi ngày',
+            'age' => 'từ 21 đến 60 năm',
+            'period' => 'từ 30 ngày',
+        ],
     ];
 
     $offers = [];
@@ -93,18 +109,18 @@ Route::get('/', function () {
     ];
     if (!empty($geo) && $geo['city']['name_en'] === 'Ho Chi Minh City') {
         $offers[] = $links['vietmoney'];
-        $offers[] = $links['vietmoney'];
+        $offers[] = $links['vpbank'];
         $offers[] = $links['shb'];
     } else {
+        $offers[] = $links['vpbank'];
         $offers[] = $links['shb'];
-        $offers[] = $links['shb'];
-        $offers[] = $links['comb'];
+        $offers[] = $links['citibank'];
     }
 
     $offers[] = $links['doctor'];
     $offers[] = $links['doctor'];
     $offers[] = $links['f88'];
-    $offers[] = $links['comb'];
+    $offers[] = $links['vpbank'];
     $offers[] = $links['comb'];
     $offers[] = $links['avay'];
     $offers[] = $links['avay'];
