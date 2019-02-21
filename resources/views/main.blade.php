@@ -21,6 +21,25 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-66823714-5');
+        gtag('config', 'AW-937839806');
+
+    </script>
+
+    <!-- Event snippet for Клик по ссылке conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+        function gtag_report_conversion(url) {
+            var callback = function () {
+                if (typeof(url) != 'undefined') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-937839806/aQAtCOTl1JUBEL6Zmb8D',
+                'event_callback': callback
+            });
+            return false;
+        }
     </script>
 
     <style>
@@ -61,7 +80,7 @@
                 <div class="lead_text1"></div>
                 <div class="clr"></div>
                 <div class="offers-block">
-                    @foreach($offers as $id => $offer)<a class="bem_offer" target="_blank" onclick="" href="{{ $offer['link'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/{{ $offer['image'] }}" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #FF4242"></div><div class="parallelogram" style="background: #FF4242"><span>{{ $actions[$id] }}</span></div><div class="parallelogram__right-angle" style="border-top-color: #FF4242"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
+                    @foreach($offers as $id => $offer)<a class="bem_offer" target="_blank" onclick="gtag_report_conversion()" href="{{ $offer['link'] }}"><div class="link_offers"><div id="cr_block_new"><div id="cr_img"><img width="120" height="50" src="images/{{ $offer['image'] }}" alt=""></div><div class="parallelogram__wrapper"><div class="parallelogram__left-angle" style="border-bottom-color: #FF4242"></div><div class="parallelogram" style="background: #FF4242"><span>{{ $actions[$id] }}</span></div><div class="parallelogram__right-angle" style="border-top-color: #FF4242"></div></div><div id="cr_cont"><div id="cr_stb"><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_s.png"></span>
                                             {{ $offer['loan_size'] }}
                                         </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_pr.png"></span>
                                             {{ $offer['percent'] }} </div><div id="cr_p_new"><span class="cr_pzag"><img height="22" src="images/icon_m.png"></span>
