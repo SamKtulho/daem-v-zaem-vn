@@ -110,10 +110,8 @@ Route::get('/', function () {
     if (!empty($geo) && $geo['city']['name_en'] === 'Ho Chi Minh City') {
         $offers[] = $links['vietmoney'];
         $offers[] = $links['vpbank'];
-        $offers[] = $links['shb'];
     } else {
         $offers[] = $links['vpbank'];
-        $offers[] = $links['shb'];
         $offers[] = $links['citibank'];
     }
 
@@ -126,6 +124,7 @@ Route::get('/', function () {
     shuffle($offers);
     shuffle($actions);
     array_unshift($offers, $links['doctor']);
+    $offers[] = $links['shb'];
 
 /*    $links = [
         'doctor' => 'https://camdo.vietmoney.vn/?aff_sid=jNcXRPTXrnTG9s8xVdL1xbZZey86vggCCss0pq48RZAyHLw8',
