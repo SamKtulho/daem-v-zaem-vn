@@ -118,7 +118,6 @@ Route::get('/', function () {
     }
 
     $offers[] = $links['doctor'];
-    $offers[] = $links['doctor'];
     $offers[] = $links['f88'];
     $offers[] = $links['vpbank'];
     $offers[] = $links['comb'];
@@ -126,6 +125,7 @@ Route::get('/', function () {
     $offers[] = $links['avay'];
     shuffle($offers);
     shuffle($actions);
+    array_unshift($offers, $links['doctor']);
 
 /*    $links = [
         'doctor' => 'https://camdo.vietmoney.vn/?aff_sid=jNcXRPTXrnTG9s8xVdL1xbZZey86vggCCss0pq48RZAyHLw8',
