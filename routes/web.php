@@ -31,9 +31,9 @@ Route::get('/', function () {
             'link' => $doctorDongLinks[array_rand($doctorDongLinks)],
             'image' => 'dong144.png',
             'loan_size' => 'lên tới 10 tr VND',
-            'percent' => 'từ 0.9% mỗi ngày',
+            'percent' => 'từ 0.4% mỗi ngày',
             'age' => 'từ 20 đến 60 năm',
-            'period' => 'từ 65 ngày',
+            'period' => 'từ 30 ngày',
         ],
         'vietmoney' => [
             'link' => 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=https%3A%2F%2Fcamdo.vietmoney.vn%2F&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
