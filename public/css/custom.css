@@ -24,7 +24,7 @@ body {
 
 .main-title h3 {
     font-size: 10px;
-    font-weight: normal;
+    font-weight: normal !important;
     line-height: 5px;
     margin-bottom: 15px;
 }
