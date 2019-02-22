@@ -95,6 +95,24 @@ Route::get('/', function () {
 
     $offers = [];
 
+    $offers[] = $links['doctor'];
+    $offers[] = $links['avay'];
+
+    if (!empty($geo) && $geo['city']['name_en'] === 'Ho Chi Minh City') {
+        $offers[] = $links['vpbank'];
+        $offers[] = $links['vietmoney'];
+    } else {
+        $offers[] = $links['vpbank'];
+        $offers[] = $links['citibank'];
+    }
+    $offers[] = $links['doctor'];
+    $offers[] = $links['f88'];
+    $offers[] = $links['vpbank'];
+    $offers[] = $links['avay'];
+    $offers[] = $links['comb'];
+    $offers[] = $links['shb'];
+
+
     $actions = [
         'Điều kiện trung thành',
         'Phê duyệt tốt nhất',
@@ -107,13 +125,16 @@ Route::get('/', function () {
         'Giải pháp ngay lập tức',
         'Phê duyệt khẩn cấp',
     ];
-    if (!empty($geo) && $geo['city']['name_en'] === 'Ho Chi Minh City') {
+    shuffle($actions);
+
+   /* if (!empty($geo) && $geo['city']['name_en'] === 'Ho Chi Minh City') {
         $offers[] = $links['vietmoney'];
         $offers[] = $links['vpbank'];
     } else {
         $offers[] = $links['vpbank'];
         $offers[] = $links['citibank'];
     }
+
 
     $offers[] = $links['doctor'];
     $offers[] = $links['f88'];
@@ -122,9 +143,8 @@ Route::get('/', function () {
     $offers[] = $links['avay'];
     $offers[] = $links['avay'];
     shuffle($offers);
-    shuffle($actions);
     array_unshift($offers, $links['doctor']);
-    $offers[] = $links['shb'];
+    $offers[] = $links['shb'];*/
 
 /*    $links = [
         'doctor' => 'https://camdo.vietmoney.vn/?aff_sid=jNcXRPTXrnTG9s8xVdL1xbZZey86vggCCss0pq48RZAyHLw8',

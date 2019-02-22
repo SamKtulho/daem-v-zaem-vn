@@ -66,6 +66,8 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
         <div class="main-title">
             <h2>Giao dịch tốt nhất trong {{ $city }}:</h2>
+            <h3>Để có thêm nhiều cơ hội nhận các khoản vay, hãy đăng kí vào hệ thống</h3>
+
         </div>
 
     </div>
