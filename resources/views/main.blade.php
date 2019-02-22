@@ -10,8 +10,8 @@
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-    <link rel="stylesheet" type="text/css" href="css/app.css" media="all">
-    <link rel="stylesheet" type="text/css" href="css/custom.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/app.css?a=11" media="all">
+    <link rel="stylesheet" type="text/css" href="css/custom.css?a=11" media="all">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66823714-5"></script>
