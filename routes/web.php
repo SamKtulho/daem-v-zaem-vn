@@ -23,7 +23,7 @@ Route::get('/', function () {
 
     $doctorDongLinks = [
         'http://umllb.com/click-FQK9KV6W-NJFQCHGS?bt=25&tl=1&sa=' . config('app.site_name') . '&sa2=' . config('app.sub2', 'sub2'),
-        'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=https%3A%2F%2Fdoctordong.vn%2F%3Fpartner_token%3DBq7OGnaSE-nrzepIjzrKeUszWQFY0YM49EHU5LLo6g8&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
+       /* 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=https%3A%2F%2Fdoctordong.vn%2F%3Fpartner_token%3DBq7OGnaSE-nrzepIjzrKeUszWQFY0YM49EHU5LLo6g8&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),*/
     ];
     
     $links = [
@@ -34,7 +34,7 @@ Route::get('/', function () {
             'percent' => 'từ 0.4% mỗi ngày',
             'age' => 'từ 20 đến 60 năm',
             'period' => 'từ 30 ngày',
-        ],
+        ],/*
         'vietmoney' => [
             'link' => 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=https%3A%2F%2Fcamdo.vietmoney.vn%2F&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
             'image' => 'vitmoney144.png',
@@ -90,15 +90,23 @@ Route::get('/', function () {
             'percent' => 'từ 0.1% mỗi ngày',
             'age' => 'từ 21 đến 60 năm',
             'period' => 'từ 30 ngày',
+        ],*/
+        'cashwagon' => [
+            'link' => 'https://go.cityclub.finance/click-GQMZE5SR-NJFQCLD4?bt=25&tl=1&sa='  . config('app.site_name') .  '&sa2=' . config('app.sub2', 'sub2'),
+            'image' => 'city.png',
+            'loan_size' => 'lên tới 10 tr VND',
+            'percent' => 'từ 0.01% mỗi ngày',
+            'age' => 'từ 22 đến 60 năm',
+            'period' => 'từ 90 ngày',
         ],
     ];
 
     $offers = [];
 
+    $offers[] = $links['cashwagon'];
     $offers[] = $links['doctor'];
-    $offers[] = $links['avay'];
 
-    if (!empty($geo) && $geo['city']['name_en'] === 'Ho Chi Minh City') {
+/*    if (!empty($geo) && $geo['city']['name_en'] === 'Ho Chi Minh City') {
         $offers[] = $links['vpbank'];
         $offers[] = $links['vietmoney'];
     } else {
@@ -110,7 +118,7 @@ Route::get('/', function () {
     $offers[] = $links['vpbank'];
     $offers[] = $links['avay'];
     $offers[] = $links['comb'];
-    $offers[] = $links['shb'];
+    $offers[] = $links['shb'];*/
 
 
     $actions = [
@@ -126,34 +134,6 @@ Route::get('/', function () {
         'Phê duyệt khẩn cấp',
     ];
     shuffle($actions);
-
-   /* if (!empty($geo) && $geo['city']['name_en'] === 'Ho Chi Minh City') {
-        $offers[] = $links['vietmoney'];
-        $offers[] = $links['vpbank'];
-    } else {
-        $offers[] = $links['vpbank'];
-        $offers[] = $links['citibank'];
-    }
-
-
-    $offers[] = $links['doctor'];
-    $offers[] = $links['f88'];
-    $offers[] = $links['vpbank'];
-    $offers[] = $links['comb'];
-    $offers[] = $links['avay'];
-    $offers[] = $links['avay'];
-    shuffle($offers);
-    array_unshift($offers, $links['doctor']);
-    $offers[] = $links['shb'];*/
-
-/*    $links = [
-        'doctor' => 'https://camdo.vietmoney.vn/?aff_sid=jNcXRPTXrnTG9s8xVdL1xbZZey86vggCCss0pq48RZAyHLw8',
-        'vietmoney' => 'https://camdo.vietmoney.vn/?aff_sid=jNcXRPTXrnTG9s8xVdL1xbZZey86vggCCss0pq48RZAyHLw8',
-        'avay' => 'https://avay.vn/?utm_source=accesstrade&aff_sid=6flehhsWeyeIyt6UbhSXNxzUGyAnTpzLUHpcZGedswUiTZnr',
-        'comb' => 'https://saleonline.com-b.vn/?utm_source=accesstrade&aff_sid=poLjHuWKIBBya4c1jSDD8h5Ch3Ohy1AJadTGUD7WcKeNYsOH',
-        'shb' => 'http://www.vaytienmat.shbfinance.com.vn/?utm_campaign=ACT&utm_medium=Allifiliate&utm_source=ACT&aff_sid=vrBPGV7219Noj1U7QjfHny0XdhQOnJWLbavzdJK0gKR9pBzw',
-        'f88' => 'https://vaynongoto.f88.vn/?utm_source=accesstrade&aff_sid=GKPFNla0M8dU8oWC3NySOsKhyOMm3rtpML6uZauEqDFZRR1J',
-    ];*/
     
     return view('main', ['city' => $city, 'offers' => $offers, 'actions' => $actions, 'links' => $links]);
 });
