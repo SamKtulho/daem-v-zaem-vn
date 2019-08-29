@@ -25,7 +25,12 @@ Route::get('/', function () {
         'http://umllb.com/click-FQK9KV6W-NJFQCHGS?bt=25&tl=1&sa=' . config('app.site_name') . '&sa2=' . config('app.sub2', 'sub2'),
        /* 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=https%3A%2F%2Fdoctordong.vn%2F%3Fpartner_token%3DBq7OGnaSE-nrzepIjzrKeUszWQFY0YM49EHU5LLo6g8&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),*/
     ];
-    
+
+    $cashwagonLinks = [
+        'https://go.cityclub.finance/click-GQMZE5SR-NJFQCLD4?bt=25&tl=1&sa='  . config('app.site_name') .  '&sa2=' . config('app.sub2', 'sub2'),
+        'http://tovpotok.com/LgEV?sub1=' . config('app.site_name') . '&sub2=' . config('app.sub2', 'sub2')
+    ];
+
     $links = [
         'doctor' => [
             'link' => $doctorDongLinks[array_rand($doctorDongLinks)],
@@ -34,7 +39,8 @@ Route::get('/', function () {
             'percent' => 'từ 0.4% mỗi ngày',
             'age' => 'từ 20 đến 60 năm',
             'period' => 'từ 30 ngày',
-        ],/*
+        ],
+        /*
         'vietmoney' => [
             'link' => 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=https%3A%2F%2Fcamdo.vietmoney.vn%2F&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
             'image' => 'vitmoney144.png',
@@ -92,10 +98,36 @@ Route::get('/', function () {
             'period' => 'từ 30 ngày',
         ],*/
         'cashwagon' => [
-            'link' => 'https://go.cityclub.finance/click-GQMZE5SR-NJFQCLD4?bt=25&tl=1&sa='  . config('app.site_name') .  '&sa2=' . config('app.sub2', 'sub2'),
-            'image' => 'city.png',
+            'link' => $cashwagonLinks[array_rand($cashwagonLinks)],
+            'image' => 'cashwagon.png',
             'loan_size' => 'lên tới 10 tr VND',
-            'percent' => 'từ 0.01% mỗi ngày',
+            'percent' => 'từ 0% mỗi ngày',
+            'age' => 'từ 22 đến 60 năm',
+            'period' => 'từ 90 ngày',
+        ],
+
+        'robocash' => [
+            'link' => 'http://tovpotok.com/IgEV?sub1=' . config('app.site_name') . '&sub2=' . config('app.sub2', 'sub2'),
+            'image' => 'robocash.png',
+            'loan_size' => 'lên tới 10 tr VND',
+            'percent' => 'từ 0.5% mỗi ngày',
+            'age' => 'từ 22 đến 60 năm',
+            'period' => 'từ 30 ngày',
+        ],
+
+        'oneclick' => [
+            'link' => 'http://tovpotok.com/tgEV?sub1=' . config('app.site_name') . '&sub2=' . config('app.sub2', 'sub2'),
+            'image' => 'oneclick.png',
+            'loan_size' => 'lên tới 10 tr VND',
+            'percent' => 'từ 0.1% mỗi ngày',
+            'age' => 'từ 22 đến 60 năm',
+            'period' => 'từ 28 ngày',
+        ],
+        'tima' => [
+            'link' => 'http://tovpotok.com/2gEV?sub1=' . config('app.site_name') . '&sub2=' . config('app.sub2', 'sub2'),
+            'image' => 'tima.png',
+            'loan_size' => 'lên tới 50 tr VND',
+            'percent' => 'từ 0.1% mỗi ngày',
             'age' => 'từ 22 đến 60 năm',
             'period' => 'từ 90 ngày',
         ],
@@ -105,20 +137,30 @@ Route::get('/', function () {
 
     $offers[] = $links['cashwagon'];
     $offers[] = $links['doctor'];
-
-/*    if (!empty($geo) && $geo['city']['name_en'] === 'Ho Chi Minh City') {
-        $offers[] = $links['vpbank'];
-        $offers[] = $links['vietmoney'];
-    } else {
-        $offers[] = $links['vpbank'];
-        $offers[] = $links['citibank'];
-    }
+    $offers[] = $links['robocash'];
+    $offers[] = $links['oneclick'];
+    $offers[] = $links['tima'];
     $offers[] = $links['doctor'];
-    $offers[] = $links['f88'];
-    $offers[] = $links['vpbank'];
-    $offers[] = $links['avay'];
-    $offers[] = $links['comb'];
-    $offers[] = $links['shb'];*/
+    $offers[] = $links['oneclick'];
+    $offers[] = $links['tima'];
+    $offers[] = $links['cashwagon'];
+    $offers[] = $links['robocash'];
+
+
+
+    /*    if (!empty($geo) && $geo['city']['name_en'] === 'Ho Chi Minh City') {
+            $offers[] = $links['vpbank'];
+            $offers[] = $links['vietmoney'];
+        } else {
+            $offers[] = $links['vpbank'];
+            $offers[] = $links['citibank'];
+        }
+        $offers[] = $links['doctor'];
+        $offers[] = $links['f88'];
+        $offers[] = $links['vpbank'];
+        $offers[] = $links['avay'];
+        $offers[] = $links['comb'];
+        $offers[] = $links['shb'];*/
 
 
     $actions = [
