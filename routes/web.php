@@ -141,10 +141,10 @@ Route::get('/', function () {
     $offers = [];
 
     $offers[] = $links['cashwagon'];
+    $offers[] = $links['easycredit'];
     $offers[] = $links['doctor'];
     $offers[] = $links['robocash'];
     $offers[] = $links['oneclick'];
-    $offers[] = $links['easycredit'];
     $offers[] = $links['doctor'];
     $offers[] = $links['oneclick'];
     $offers[] = $links['easycredit'];
