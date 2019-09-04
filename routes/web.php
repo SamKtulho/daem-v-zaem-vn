@@ -23,12 +23,17 @@ Route::get('/', function () {
 
     $doctorDongLinks = [
         'http://umllb.com/click-FQK9KV6W-NJFQCHGS?bt=25&tl=1&sa=' . config('app.site_name') . '&sa2=' . config('app.sub2', 'sub2'),
-       /* 'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=https%3A%2F%2Fdoctordong.vn%2F%3Fpartner_token%3DBq7OGnaSE-nrzepIjzrKeUszWQFY0YM49EHU5LLo6g8&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),*/
+        'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=https%3A%2F%2Fdoctordong.vn%2F%3Fpartner_token%3DBq7OGnaSE-nrzepIjzrKeUszWQFY0YM49EHU5LLo6g8&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
     ];
 
     $cashwagonLinks = [
         'https://go.cityclub.finance/click-GQMZE5SR-NJFQCLD4?bt=25&tl=1&sa='  . config('app.site_name') .  '&sa2=' . config('app.sub2', 'sub2'),
-        'http://tovpotok.com/LgEV?sub1=' . config('app.site_name') . '&sub2=' . config('app.sub2', 'sub2')
+        'http://tovpotok.com/ghpV?sub1=' . config('app.site_name') . '&sub2=' . config('app.sub2', 'sub2')
+    ];
+
+    $easycreditLinks = [
+        'https://go.cityclub.finance/click-AQNF3J0G-KHEQCL7E?bt=25&tl=1&sa='  . config('app.site_name') .  '&sa2=' . config('app.sub2', 'sub2'),
+        'http://tovpotok.com/ehpV?sub1=' . config('app.site_name') . '&sub2=' . config('app.sub2', 'sub2')
     ];
 
     $links = [
@@ -107,7 +112,7 @@ Route::get('/', function () {
         ],
 
         'robocash' => [
-            'link' => 'http://tovpotok.com/IgEV?sub1=' . config('app.site_name') . '&sub2=' . config('app.sub2', 'sub2'),
+            'link' => 'http://tovpotok.com/OhpV?sub1=' . config('app.site_name') . '&sub2=' . config('app.sub2', 'sub2'),
             'image' => 'robocash.png',
             'loan_size' => 'lên tới 10 tr VND',
             'percent' => 'từ 0.5% mỗi ngày',
@@ -116,20 +121,20 @@ Route::get('/', function () {
         ],
 
         'oneclick' => [
-            'link' => 'http://tovpotok.com/tgEV?sub1=' . config('app.site_name') . '&sub2=' . config('app.sub2', 'sub2'),
+            'link' => 'http://tovpotok.com/dhpV?sub1=' . config('app.site_name') . '&sub2=' . config('app.sub2', 'sub2'),
             'image' => 'oneclick.png',
             'loan_size' => 'lên tới 10 tr VND',
             'percent' => 'từ 0.1% mỗi ngày',
             'age' => 'từ 22 đến 60 năm',
             'period' => 'từ 28 ngày',
         ],
-        'tima' => [
-            'link' => 'http://tovpotok.com/2gEV?sub1=' . config('app.site_name') . '&sub2=' . config('app.sub2', 'sub2'),
-            'image' => 'tima.png',
+        'easycredit' => [
+            'link' => $easycreditLinks[array_rand($easycreditLinks)],
+            'image' => 'easycredit.png',
             'loan_size' => 'lên tới 50 tr VND',
             'percent' => 'từ 0.1% mỗi ngày',
             'age' => 'từ 22 đến 60 năm',
-            'period' => 'từ 90 ngày',
+            'period' => 'từ 180 ngày',
         ],
     ];
 
@@ -139,10 +144,10 @@ Route::get('/', function () {
     $offers[] = $links['doctor'];
     $offers[] = $links['robocash'];
     $offers[] = $links['oneclick'];
-    $offers[] = $links['tima'];
+    $offers[] = $links['easycredit'];
     $offers[] = $links['doctor'];
     $offers[] = $links['oneclick'];
-    $offers[] = $links['tima'];
+    $offers[] = $links['easycredit'];
     $offers[] = $links['cashwagon'];
     $offers[] = $links['robocash'];
 
@@ -177,5 +182,5 @@ Route::get('/', function () {
     ];
     shuffle($actions);
     
-    return view('main', ['city' => $city, 'offers' => $offers, 'actions' => $actions, 'links' => $links]);
+    return view('main', ['city' => $city, 'offers' => $offers, 'actions' => $actions, 'links' => $links, 'notificationLink' => $links['cashwagon']]);
 });

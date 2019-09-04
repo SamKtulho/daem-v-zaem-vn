@@ -168,7 +168,7 @@ giấy phép liên quan. Các điều khoản không thanh toán có thể đư�
 <script charset="UTF-8" src="/js/jquery.js"> </script>
 <script charset="UTF-8" src="/js/custom.js"></script>
 
-<div class="notificate-wrapper"><div class="notice-block action-1 not-opened" style="display: none;"><div class="notice-close"></div><a href="{{ $offers[0]['link'] . '&sa3=notificate' }}" target="_blank" onclick="gtag_report_conversion()"><div class="notice-image"><img src="images/dong144.png" alt=""></div><div class="notice-data"><div class="notice-title">Tín dụng trong 5 phút!</div><div class="notice-text">Lên tới 10 triệu đồng<br>giải pháp tự động</div></div></a></div></div>
+<div class="notificate-wrapper"><div class="notice-block action-1 not-opened" style="display: none;"><div class="notice-close"></div><a href="{{ $notificationLink['link'] . '&sa3=notificate' }}" target="_blank" onclick="gtag_report_conversion()"><div class="notice-image"><img src="images/cashwagon.png" alt=""></div><div class="notice-data"><div class="notice-title">Tín dụng trong 5 phút!</div><div class="notice-text">Lên tới 10 triệu đồng<br>giải pháp tự động</div></div></a></div></div>
 
 <link href="files/awesome.css" rel="stylesheet">
 </body>
