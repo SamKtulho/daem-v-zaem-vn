@@ -36,6 +36,11 @@ Route::get('/', function () {
         'http://tovpotok.com/ehpV?sub1=' . config('app.site_name') . '&sub2=' . config('app.sub2', 'sub2')
     ];
 
+    $robocashLinks = [
+        'https://go.cityclub.finance/click-IQOHIH3G-KGCQCM28?bt=25&tl=1&sa='  . config('app.site_name') .  '&sa2=' . config('app.sub2', 'sub2'),
+        'http://tovpotok.com/OhpV?sub1=' . config('app.site_name') . '&sub2=' . config('app.sub2', 'sub2')
+    ];
+
     $links = [
         'doctor' => [
             'link' => $doctorDongLinks[array_rand($doctorDongLinks)],
@@ -112,7 +117,7 @@ Route::get('/', function () {
         ],
 
         'robocash' => [
-            'link' => 'http://tovpotok.com/OhpV?sub1=' . config('app.site_name') . '&sub2=' . config('app.sub2', 'sub2'),
+            'link' => $robocashLinks[array_rand($robocashLinks)],
             'image' => 'robocash.png',
             'loan_size' => 'lên tới 10 tr VND',
             'percent' => 'từ 0.5% mỗi ngày',
