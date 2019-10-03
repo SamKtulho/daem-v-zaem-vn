@@ -22,8 +22,8 @@ Route::get('/', function () {
     }
 
     $doctorDongLinks = [
-        'http://umllb.com/click-FQK9KV6W-NJFQCHGS?bt=25&tl=1&sa=' . config('app.site_name') . '&sa2=' . config('app.sub2', 'sub2'),
-        'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=https%3A%2F%2Fdoctordong.vn%2F%3Fpartner_token%3DBq7OGnaSE-nrzepIjzrKeUszWQFY0YM49EHU5LLo6g8&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
+        'https://pwieu.com/click-DQOSJDYJ-NKHQCNC4?bt=25&tl=1&sa=' . config('app.site_name') . '&sa2=' . config('app.sub2', 'sub2'),
+//        'https://fast.accesstrade.com.vn/deep_link/5060554555587958166?url=https%3A%2F%2Fdoctordong.vn%2F%3Fpartner_token%3DBq7OGnaSE-nrzepIjzrKeUszWQFY0YM49EHU5LLo6g8&utm_campaign=' . config('app.site_name') . '&utm_source=' . config('app.sub2', 'sub2'),
     ];
 
     $cashwagonLinks = [
