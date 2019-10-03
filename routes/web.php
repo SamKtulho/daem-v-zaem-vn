@@ -190,5 +190,5 @@ Route::get('/', function () {
     ];
     shuffle($actions);
     
-    return view('main', ['city' => $city, 'offers' => $offers, 'actions' => $actions, 'links' => $links, 'notificationLink' => $doctorDongLinks[array_rand($doctorDongLinks)]]);
+    return view('main', ['city' => $city, 'offers' => $offers, 'actions' => $actions, 'links' => $links, 'notificationLink' => $links['doctor']]);
 });
