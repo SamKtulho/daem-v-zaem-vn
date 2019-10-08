@@ -145,19 +145,23 @@ Route::get('/', function () {
 
     $offers = [];
 
+    $offers[] = $links['doctor'];
+
     $offers[] = $links['cashwagon'];
    // $offers[] = $links['easycredit'];
+    $offers[] = $links['robocash'];
     $offers[] = $links['doctor'];
+    $offers[] = $links['oneclick'];
+
+    $offers[] = $links['cashwagon'];
+
+  //  $offers[] = $links['easycredit'];
+    $offers[] = $links['doctor'];
+    $offers[] = $links['oneclick'];
+
     $offers[] = $links['robocash'];
     $offers[] = $links['cashwagon'];
 
-    $offers[] = $links['oneclick'];
-    $offers[] = $links['doctor'];
-    $offers[] = $links['oneclick'];
-  //  $offers[] = $links['easycredit'];
-    $offers[] = $links['cashwagon'];
-    $offers[] = $links['doctor'];
-    $offers[] = $links['robocash'];
 
 
 
