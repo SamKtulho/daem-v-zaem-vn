@@ -28,17 +28,17 @@ Route::get('/', function () {
 
     $cashwagonLinks = [
         'https://go.cityclub.finance/click-GQMZE5SR-NJFQCLD4?bt=25&tl=1&sa='  . config('app.site_name') .  '&sa2=' . config('app.sub2', 'sub2'),
-        'http://tovpotok.com/ghpV?sub1=' . config('app.site_name') . '&sub2=' . config('app.sub2', 'sub2')
+     //   'http://tovpotok.com/ghpV?sub1=' . config('app.site_name') . '&sub2=' . config('app.sub2', 'sub2')
     ];
 
     $easycreditLinks = [
         'https://go.cityclub.finance/click-AQNF3J0G-KHEQCL7E?bt=25&tl=1&sa='  . config('app.site_name') .  '&sa2=' . config('app.sub2', 'sub2'),
-        'http://tovpotok.com/ehpV?sub1=' . config('app.site_name') . '&sub2=' . config('app.sub2', 'sub2')
+     //   'http://tovpotok.com/ehpV?sub1=' . config('app.site_name') . '&sub2=' . config('app.sub2', 'sub2')
     ];
 
     $robocashLinks = [
         'https://go.cityclub.finance/click-IQOHIH3G-KGCQCM28?bt=25&tl=1&sa='  . config('app.site_name') .  '&sa2=' . config('app.sub2', 'sub2'),
-        'http://tovpotok.com/OhpV?sub1=' . config('app.site_name') . '&sub2=' . config('app.sub2', 'sub2')
+     //   'http://tovpotok.com/OhpV?sub1=' . config('app.site_name') . '&sub2=' . config('app.sub2', 'sub2')
     ];
 
     $links = [
